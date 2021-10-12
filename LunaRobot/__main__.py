@@ -75,7 +75,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 ╭──────────────
-**Hey**🤞 {}, I am 𝐋𝐢𝐯𝐯𝐲🥀🍃☘️
+**Hey**🤞 {}, I am Doreamon🥀🍃☘️
 **I am an Advanced Group Manager Bot, With Lots of Cool Features❤️.**
 
 `For More Information Use the Button Below or Send` /help 
@@ -85,17 +85,17 @@ PM_START_TEXT = """
 buttons = [
         [
         InlineKeyboardButton(
-            text="𝐀𝐝𝐝 𝐌𝐞 𝐍𝐨𝐰➕️", url="t.me/MissLivvyBot?startgroup=true"),
+            text="𝐀𝐝𝐝 𝐌𝐞 𝐍𝐨𝐰➕️", url="t.me/dore_amon_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="𝐇𝐨𝐰 𝐭𝐨 𝐒𝐭𝐚𝐫𝐭❓", callback_data="Howto_"),
     ],
     [
         InlineKeyboardButton(
-            text="𝐔𝐩𝐝𝐚𝐭𝐞𝐬🤞", url=f"https://t.me/RhythmOfficial"
+            text="𝐔𝐩𝐝𝐚𝐭𝐞𝐬🤞", url=f"https://t.me/phoenix_music_new"
         ),
         InlineKeyboardButton(
-            text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭😍", url=f"https://t.me/RhythmOff"
+            text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭😍", url=f"https://t.me/phoenix_music_suport"
         ),
     ],
     [
