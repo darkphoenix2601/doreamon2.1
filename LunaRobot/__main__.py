@@ -225,7 +225,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "Hey🤞, I am 𝐋𝐢𝐯𝐯𝐲🥀🍃☘️.\n<b>Uptime:</b> <code>{}</code>".format(
+            "Hey🤞, I am doreamon🥀🍃☘️.\n<b>Uptime:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -391,7 +391,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text="""Hi..🤗 I'm *𝐋ɪᴠᴠʏ*
+            text="""Hi..🤗 I'm *doreamon*
                  \nHere is the [Source Code](https://github.com/Noob-kittu/YoneRobot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
